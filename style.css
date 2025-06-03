@@ -1,0 +1,92 @@
+:root{
+    --purple : #581845;
+    --blue: #1f618d ;
+    --grey :#34495e ;
+    --orange: #d35400 ;
+    --purpleLigh: #8e44ad ;
+    --withe : #ecf0f1;
+    --greyTwo: #566573;
+    --green: #58d68d ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'sans-serif', 'Lucida Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--greyTwo);
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+h1{
+    margin-top: 200px;
+    color: var(--withe);
+    text-align: center;
+}
+form{
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+}
+form input[type="text"]{
+    width: 300px;
+    background-color: var(--greyTwo);
+    color: var(--withe);
+    border-style: none;
+    font-size: 20px;
+}
+form input[type="text"]::placeholder{
+    color: var(--green);
+    font-weight: 600;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    color: var(--greyTwo);
+}
+form input[type="submit"]:hover{
+    background: var(--green);
+    color: var(--withe);
+     cursor: pointer;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.list-container{
+    
+    width: 400px;
+    margin: 0 auto;
+}
+.task-container{
+    background: var(--withe);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 15px;
+    font-weight: 400
+    ;
+}
+.closeBtn{
+    width: 30px;
+    height: 30px;
+}
+.closeBtn:hover{
+    cursor: pointer;
+}
+#stats{
+    margin-top: 25px;
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--withe);
+}
